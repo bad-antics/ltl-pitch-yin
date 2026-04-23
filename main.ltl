@@ -1,0 +1,15 @@
+// ltl-pitch-yin/main.ltl
+//
+// YIN algorithm pitch detector for monophonic audio.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-pitch-yin v0.1.0")
+    io::println("YIN algorithm pitch detector for monophonic audio.")
+    0
+}
