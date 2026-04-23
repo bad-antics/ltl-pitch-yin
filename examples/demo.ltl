@@ -1,0 +1,10 @@
+// examples/demo.ltl — runnable demo for ltl_pitch_yin
+
+import std::io
+use ltl_pitch_yin as lib
+
+fn main() {
+    io::println("ltl_pitch_yin demo starting...")
+    let result = lib::main() |> io::inspect()
+    io::println("demo complete")
+}
